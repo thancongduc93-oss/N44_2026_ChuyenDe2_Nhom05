@@ -1,0 +1,36 @@
+{
+    "dataset_type": "causal_temporal_simulation_traces",
+    "description": "Causal multi-topology IEEE 802.15.4 link quality traces: past-window features predicting next-round link PDR and expected airtime, grouped by independent topology seed.",
+    "version": "4.0.0-temporal-sim",
+    "generation_timestamp": "2026-11-26T01:42:15.378563",
+    "random_seed": 42,
+    "num_samples": 6000,
+    "num_unique_topologies": 9,
+    "feature_columns": [
+        "distance",
+        "prev_rssi_dbm",
+        "prev_snr_db",
+        "ewma_pdr",
+        "ewma_retx",
+        "ewma_delay_ms",
+        "rx_queue_load"
+    ],
+    "target_columns": [
+        "pdr",
+        "link_delay_ms"
+    ],
+    "group_column": "group_seed",
+    "config_parameters": {
+        "comm_range": 35.0,
+        "path_loss_exponent": 3.3,
+        "shadowing_std": 6.0,
+        "tx_power_dbm": 0.0,
+        "noise_floor_dbm": -85.0,
+        "bandwidth_bps": 250000.0,
+        "packet_size_bits": 4000,
+        "frame_size_bits": 1016,
+        "num_fragments": 5,
+        "max_retransmissions": 3,
+        "max_queue_load": 8
+    }
+}

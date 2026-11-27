@@ -1,0 +1,5 @@
+Protocol,FND (Round),HND (Round),Overall PDR (%),Weighted Mean Delay (ms),Final Residual Energy (J),Energy per Packet (mJ),Packets Delivered,Packets Dropped,Protocol Runtime (s),Trials
+Shortest Path (SP),115.2 ± 19.8,>300 (5/5 censored),36.13 ± 5.26,40.35 ± 1.78,4.7620 ± 0.2887,1.619 ± 0.365,4959 / 13677,8717,15.75,5
+Dijkstra (Energy),99.0 ± 28.0,>300 (5/5 censored),35.54 ± 5.30,39.91 ± 2.01,5.2543 ± 0.2294,1.551 ± 0.306,4823 / 13536,8713,15.57,5
+PSO + Dijkstra,229.0 ± 38.3,>300 (5/5 censored),35.11 ± 4.68,37.60 ± 2.06,5.2524 ± 0.2203,1.455 ± 0.257,5125 / 14536,9411,21.76,5
+ML + PSO + Dijkstra (Proposed),233.8 ± 39.7,>300 (5/5 censored),38.13 ± 4.89,38.85 ± 1.77,5.1370 ± 0.3666,1.352 ± 0.197,5566 / 14545,8979,22.42,5

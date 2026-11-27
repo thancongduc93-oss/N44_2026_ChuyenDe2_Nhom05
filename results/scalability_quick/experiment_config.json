@@ -1,0 +1,33 @@
+{
+    "version": "V19",
+    "source_code_sha256": "28638ac991af8cefde3fa647e7e564f9b96fd8c20735e585411892a39e36224a",
+    "run_mode": "scalability_quick",
+    "timestamp": "2026-11-26T03:08:45.114621",
+    "python_version": "3.12.10",
+    "output_dir": "results\\scalability_quick",
+    "charts_dir": "results\\scalability_quick\\charts",
+    "node_counts": [
+        30,
+        50,
+        100
+    ],
+    "rounds_per_test": 40,
+    "comm_range": 35.0,
+    "seed": 42,
+    "single_seed_note": "Single-seed (seed=42) scalability experiment; not a multi-seed average.",
+    "protocols": [
+        "sp",
+        "energy_dijkstra",
+        "pso",
+        "ml_pso"
+    ],
+    "pso_num_particles": 15,
+    "pso_max_iter": 15,
+    "size_runtimes_s": {
+        "30": 5.33,
+        "50": 9.79,
+        "100": 21.12
+    },
+    "total_elapsed_s": 36.23,
+    "benchmark_completed": true
+}

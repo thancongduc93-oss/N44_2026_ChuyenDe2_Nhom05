@@ -1,0 +1,13 @@
+Nodes,Area (m^2),BS_Pos,Comm_Range (m),Density (nodes/m^2),Protocol,Protocol_Key,FND,FND_numeric,FND_censored,PDR (%),Weighted Mean Delay (ms),Runtime (s),Packets Delivered,Packets Generated
+30,80x80,"(40.0, 40.0)",35.0,0.00469,Shortest Path (SP),sp,>150,150,True,47.2,31.58,4.99,2124,4500
+30,80x80,"(40.0, 40.0)",35.0,0.00469,Dijkstra (Energy),energy_dijkstra,>150,150,True,50.24,32.76,5.09,2261,4500
+30,80x80,"(40.0, 40.0)",35.0,0.00469,PSO + Dijkstra,pso,>150,150,True,47.09,31.48,5.7,2119,4500
+30,80x80,"(40.0, 40.0)",35.0,0.00469,ML + PSO + Dijkstra (Proposed),ml_pso,>150,150,True,49.69,32.61,5.95,2236,4500
+50,100x100,"(50.0, 50.0)",35.0,0.005,Shortest Path (SP),sp,116,116,False,37.85,38.9,8.76,2826,7466
+50,100x100,"(50.0, 50.0)",35.0,0.005,Dijkstra (Energy),energy_dijkstra,80,80,False,38.44,38.52,8.42,2851,7416
+50,100x100,"(50.0, 50.0)",35.0,0.005,PSO + Dijkstra,pso,>150,150,True,37.33,37.83,10.93,2800,7500
+50,100x100,"(50.0, 50.0)",35.0,0.005,ML + PSO + Dijkstra (Proposed),ml_pso,>150,150,True,42.13,39.44,11.54,3160,7500
+100,140x140,"(70.0, 70.0)",35.0,0.0051,Shortest Path (SP),sp,56,56,False,23.74,53.52,18.45,3396,14306
+100,140x140,"(70.0, 70.0)",35.0,0.0051,Dijkstra (Energy),energy_dijkstra,56,56,False,23.99,50.49,20.06,3450,14379
+100,140x140,"(70.0, 70.0)",35.0,0.0051,PSO + Dijkstra,pso,124,124,False,22.1,44.27,24.48,3299,14928
+100,140x140,"(70.0, 70.0)",35.0,0.0051,ML + PSO + Dijkstra (Proposed),ml_pso,129,129,False,23.78,47.24,26.04,3541,14892

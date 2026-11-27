@@ -1,0 +1,289 @@
+{
+    "statistical_method": "Paired t-test across matched seeds with Holm-Bonferroni multiple-testing correction",
+    "pairs": {
+        "ml_pso_vs_pso": {
+            "n_seeds": 5,
+            "metrics": {
+                "Overall PDR (%)": {
+                    "status": "tested",
+                    "mean_diff": 3.012,
+                    "std_diff": 0.6451,
+                    "ci95_low": 2.211,
+                    "ci95_high": 3.813,
+                    "paired_t_p_value": 0.000476,
+                    "p_value_holm": 0.007609,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": true
+                },
+                "Weighted Mean Delay (ms)": {
+                    "status": "tested",
+                    "mean_diff": 1.25,
+                    "std_diff": 0.4597,
+                    "ci95_low": 0.6792,
+                    "ci95_high": 1.8208,
+                    "paired_t_p_value": 0.003699,
+                    "p_value_holm": 0.051781,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Final Residual Energy (J)": {
+                    "status": "tested",
+                    "mean_diff": -0.1153,
+                    "std_diff": 0.1976,
+                    "ci95_low": -0.3607,
+                    "ci95_high": 0.13,
+                    "paired_t_p_value": 0.261785,
+                    "p_value_holm": 0.550133,
+                    "significant_alpha_0_05": false,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Energy per Packet (mJ)": {
+                    "status": "tested",
+                    "mean_diff": -0.1026,
+                    "std_diff": 0.0678,
+                    "ci95_low": -0.1868,
+                    "ci95_high": -0.0184,
+                    "paired_t_p_value": 0.027655,
+                    "p_value_holm": 0.283336,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                }
+            },
+            "censored_milestones": {
+                "FND": {
+                    "status": "tested_uncensored",
+                    "mean_diff": 4.8,
+                    "std_diff": 20.3887,
+                    "paired_t_p_value": 0.626432
+                },
+                "HND": {
+                    "status": "not_estimable_right_censored",
+                    "ml_pso_censored": "5/5 right-censored",
+                    "pso_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                },
+                "LND": {
+                    "status": "not_estimable_right_censored",
+                    "ml_pso_censored": "5/5 right-censored",
+                    "pso_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                }
+            }
+        },
+        "ml_pso_vs_sp": {
+            "n_seeds": 5,
+            "metrics": {
+                "Overall PDR (%)": {
+                    "status": "tested",
+                    "mean_diff": 1.996,
+                    "std_diff": 0.7948,
+                    "ci95_low": 1.0092,
+                    "ci95_high": 2.9828,
+                    "paired_t_p_value": 0.004941,
+                    "p_value_holm": 0.064238,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Weighted Mean Delay (ms)": {
+                    "status": "tested",
+                    "mean_diff": -1.498,
+                    "std_diff": 1.0382,
+                    "ci95_low": -2.7871,
+                    "ci95_high": -0.2089,
+                    "paired_t_p_value": 0.032086,
+                    "p_value_holm": 0.288774,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Final Residual Energy (J)": {
+                    "status": "tested",
+                    "mean_diff": 0.3751,
+                    "std_diff": 0.5219,
+                    "ci95_low": -0.273,
+                    "ci95_high": 1.0231,
+                    "paired_t_p_value": 0.183378,
+                    "p_value_holm": 0.550133,
+                    "significant_alpha_0_05": false,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Energy per Packet (mJ)": {
+                    "status": "tested",
+                    "mean_diff": -0.2668,
+                    "std_diff": 0.1948,
+                    "ci95_low": -0.5087,
+                    "ci95_high": -0.0249,
+                    "paired_t_p_value": 0.037575,
+                    "p_value_holm": 0.288774,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                }
+            },
+            "censored_milestones": {
+                "FND": {
+                    "status": "tested_uncensored",
+                    "mean_diff": 118.6,
+                    "std_diff": 32.7231,
+                    "paired_t_p_value": 0.00126
+                },
+                "HND": {
+                    "status": "not_estimable_right_censored",
+                    "ml_pso_censored": "5/5 right-censored",
+                    "sp_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                },
+                "LND": {
+                    "status": "not_estimable_right_censored",
+                    "ml_pso_censored": "5/5 right-censored",
+                    "sp_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                }
+            }
+        },
+        "pso_vs_sp": {
+            "n_seeds": 5,
+            "metrics": {
+                "Overall PDR (%)": {
+                    "status": "tested",
+                    "mean_diff": -1.016,
+                    "std_diff": 0.7136,
+                    "ci95_low": -1.9021,
+                    "ci95_high": -0.1299,
+                    "paired_t_p_value": 0.033424,
+                    "p_value_holm": 0.288774,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Weighted Mean Delay (ms)": {
+                    "status": "tested",
+                    "mean_diff": -2.748,
+                    "std_diff": 0.8943,
+                    "ci95_low": -3.8584,
+                    "ci95_high": -1.6376,
+                    "paired_t_p_value": 0.00235,
+                    "p_value_holm": 0.035249,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": true
+                },
+                "Final Residual Energy (J)": {
+                    "status": "tested",
+                    "mean_diff": 0.4904,
+                    "std_diff": 0.3652,
+                    "ci95_low": 0.037,
+                    "ci95_high": 0.9438,
+                    "paired_t_p_value": 0.039832,
+                    "p_value_holm": 0.288774,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Energy per Packet (mJ)": {
+                    "status": "tested",
+                    "mean_diff": -0.1642,
+                    "std_diff": 0.1348,
+                    "ci95_low": -0.3316,
+                    "ci95_high": 0.0032,
+                    "paired_t_p_value": 0.05278,
+                    "p_value_holm": 0.288774,
+                    "significant_alpha_0_05": false,
+                    "significant_holm_alpha_0_05": false
+                }
+            },
+            "censored_milestones": {
+                "FND": {
+                    "status": "tested_uncensored",
+                    "mean_diff": 113.8,
+                    "std_diff": 28.2259,
+                    "paired_t_p_value": 0.000838
+                },
+                "HND": {
+                    "status": "not_estimable_right_censored",
+                    "pso_censored": "5/5 right-censored",
+                    "sp_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                },
+                "LND": {
+                    "status": "not_estimable_right_censored",
+                    "pso_censored": "5/5 right-censored",
+                    "sp_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                }
+            }
+        },
+        "ml_pso_vs_energy_dijkstra": {
+            "n_seeds": 5,
+            "metrics": {
+                "Overall PDR (%)": {
+                    "status": "tested",
+                    "mean_diff": 2.586,
+                    "std_diff": 1.6383,
+                    "ci95_low": 0.5518,
+                    "ci95_high": 4.6202,
+                    "paired_t_p_value": 0.02424,
+                    "p_value_holm": 0.283336,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Weighted Mean Delay (ms)": {
+                    "status": "tested",
+                    "mean_diff": -1.058,
+                    "std_diff": 1.0402,
+                    "ci95_low": -2.3496,
+                    "ci95_high": 0.2336,
+                    "paired_t_p_value": 0.085319,
+                    "p_value_holm": 0.341276,
+                    "significant_alpha_0_05": false,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Final Residual Energy (J)": {
+                    "status": "tested",
+                    "mean_diff": -0.1173,
+                    "std_diff": 0.437,
+                    "ci95_low": -0.6599,
+                    "ci95_high": 0.4254,
+                    "paired_t_p_value": 0.580875,
+                    "p_value_holm": 0.580875,
+                    "significant_alpha_0_05": false,
+                    "significant_holm_alpha_0_05": false
+                },
+                "Energy per Packet (mJ)": {
+                    "status": "tested",
+                    "mean_diff": -0.1984,
+                    "std_diff": 0.1247,
+                    "ci95_low": -0.3532,
+                    "ci95_high": -0.0436,
+                    "paired_t_p_value": 0.023611,
+                    "p_value_holm": 0.283336,
+                    "significant_alpha_0_05": true,
+                    "significant_holm_alpha_0_05": false
+                }
+            },
+            "censored_milestones": {
+                "FND": {
+                    "status": "tested_uncensored",
+                    "mean_diff": 134.8,
+                    "std_diff": 21.9135,
+                    "paired_t_p_value": 0.000162
+                },
+                "HND": {
+                    "status": "not_estimable_right_censored",
+                    "ml_pso_censored": "5/5 right-censored",
+                    "energy_dijkstra_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                },
+                "LND": {
+                    "status": "not_estimable_right_censored",
+                    "ml_pso_censored": "5/5 right-censored",
+                    "energy_dijkstra_censored": "5/5 right-censored",
+                    "paired_t_p_value": null,
+                    "note": "Right-censored milestone excluded from paired t-test."
+                }
+            }
+        }
+    }
+}

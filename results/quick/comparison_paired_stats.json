@@ -1,0 +1,4 @@
+{
+    "statistical_method": "Paired t-test across matched seeds with Holm-Bonferroni multiple-testing correction",
+    "pairs": {}
+}

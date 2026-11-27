@@ -1,0 +1,5 @@
+Seed,Protocol,FND_numeric,FND_censored,HND_numeric,HND_censored,LND_numeric,LND_censored,Final Residual Energy (J),Overall PDR (%),Weighted Mean Delay (ms),Energy per Packet (mJ),Packets Delivered,Packets Generated,Packets Dropped,Protocol Runtime (s)
+42,sp,30,True,30,True,30,True,11.6781,37.67,38.75,1.455,565,1500,935,1.79
+42,energy_dijkstra,30,True,30,True,30,True,11.7486,36.67,37.61,1.366,550,1500,950,1.7
+42,pso,30,True,30,True,30,True,11.7521,36.27,37.17,1.375,544,1500,956,1.7
+42,ml_pso,30,True,30,True,30,True,11.715,42.67,39.33,1.227,640,1500,860,1.85

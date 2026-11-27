@@ -1,0 +1,6 @@
+Stage,Protocol,Runtime (s)
+ML Training & Evaluation,N/A,3.408
+Protocol Simulation,sp,14.791
+Protocol Simulation,energy_dijkstra,14.633
+Protocol Simulation,pso,20.259
+Protocol Simulation,ml_pso,21.599

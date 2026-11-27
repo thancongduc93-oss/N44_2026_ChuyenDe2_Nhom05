@@ -1,0 +1,51 @@
+{
+    "version": "V19",
+    "source_code_sha256": "c60598f4400676f8c414503e6d0cda4218dcede83b6a866fa42e7b5afdaabbfc",
+    "run_mode": "quick",
+    "timestamp": "2026-11-26T04:10:26.956053",
+    "python_version": "3.12.10",
+    "dependency_versions": {
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "scikit_learn": "1.8.0"
+    },
+    "output_dir": "results/quick",
+    "charts_dir": "results/quick\\charts",
+    "num_nodes": 50,
+    "area": "100.0x100.0m",
+    "comm_range": 35.0,
+    "initial_energy": 0.25,
+    "total_rounds": 30,
+    "queue_service_capacity": 8,
+    "max_queue_load": 8,
+    "protocols": [
+        "sp",
+        "energy_dijkstra",
+        "pso",
+        "ml_pso"
+    ],
+    "benchmark_seeds": [
+        42
+    ],
+    "num_trials": 1,
+    "model_name": "Gradient Boosting",
+    "model_path": "results/quick\\quick_link_quality_predictor.joblib",
+    "benchmark_completed": true,
+    "total_elapsed_seconds": 12.96,
+    "python_traced_peak_mb": null,
+    "process_rss_mb": 243.2,
+    "tracemalloc_enabled": false,
+    "phy_channel": {
+        "model": "Log-distance with Log-normal shadowing & IEEE 802.15.4 O-QPSK non-coherent AWGN (Annex E)",
+        "frequency_hz": 2400000000.0,
+        "path_loss_exponent": 3.3,
+        "shadowing_std_db": 6.0,
+        "noise_floor_dbm": -85.0,
+        "receiver_noise_bandwidth_hz": 2000000.0,
+        "chip_rate_cps": 2000000.0,
+        "bit_rate_bps": 250000.0,
+        "app_payload_bits": 4000,
+        "frame_size_bits": 1016,
+        "num_fragments": 5
+    }
+}
