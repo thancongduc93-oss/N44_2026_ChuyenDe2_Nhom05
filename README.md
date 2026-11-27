@@ -1,7 +1,5 @@
 # Tối ưu Định tuyến và Tiết kiệm Năng lượng trong Mạng IoT (PSO + Machine Learning)
 
-**Phiên bản:** V19
-
 ## 1. Mục tiêu dự án
 Mô phỏng, đánh giá và tối ưu định tuyến đa chặng tiết kiệm năng lượng cho mạng cảm biến không dây IoT (IEEE 802.15.4, 2.4 GHz) bằng thuật toán **Adaptive Particle Swarm Optimization (PSO)** kết hợp mô hình **Machine Learning (Gradient Boosting)** dự đoán chất lượng liên kết (PDR và độ trễ), so sánh đối chuẩn với **Shortest Path (SP)**, **Energy Dijkstra** và **PSO + Dijkstra**.
 
